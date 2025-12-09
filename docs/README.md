@@ -52,7 +52,7 @@ La configuración utiliza el esquema (schema) definido en el componente.
 | **`width`** | String / Number | No | `40` | Ancho del logo en píxeles. |
 | **`height`** | String / Number | No | `40` | Alto del logo en píxeles. |
 
-🎨 Estilo y Posición
+## 🎨 Estilo y Posición
 
 Posición Fija: El componente está codificado para ser fijo en la parte inferior izquierda (fixed bottom-1 left-1).
 
