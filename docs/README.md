@@ -1,13 +1,25 @@
-# Componente Whatsapp Button 
+# 🟢 Componente Whatsapp Button
 
-🚀 Visión General
-Este componente de VTEX IO muestra un botón flotante de WhatsApp en la esquina inferior izquierda de la pantalla, permitiendo a los clientes iniciar una conversación con un mensaje predefinido.
+---
 
-🏗️ Instalación y Uso
-1. Dependencia
-Asegúrate de declarar la aplicación del componente en las dependencias de tu manifest.json de la tienda.
-2. Declaración en Blocks
-El componente se declara y se configura como un block de la siguiente manera, generalmente en un template o bloque principal (Ej. store/blocks.jsonc):JSON"store:custom#home": {
+### 🚀 Visión General
+
+Este componente de VTEX IO muestra un **botón flotante de WhatsApp** en la esquina inferior izquierda de la pantalla, permitiendo a los clientes iniciar una conversación con un mensaje predefinido.
+
+---
+
+### 🏗️ Instalación y Uso
+
+#### 1. Dependencia
+
+Asegúrate de declarar la aplicación del componente en las dependencias de tu `manifest.json` de la tienda.
+
+#### 2. Declaración en Blocks
+
+El componente se declara y se configura como un block, generalmente en un *template* o bloque principal (Ej. `store/blocks.jsonc`).
+
+```json
+"store:custom#home": {
   "blocks": [
     "whatsapp-button"
     // Otros bloques...
