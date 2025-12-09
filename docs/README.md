@@ -2,17 +2,17 @@
 
 ---
 
-### 🚀 Visión General
+## 🚀 Visión General
 
 Este componente de VTEX IO muestra un **botón flotante de WhatsApp** en la esquina inferior izquierda de la pantalla, permitiendo a los clientes iniciar una conversación con un mensaje predefinido.
 
-### 🖼️ Previsualización del Componente
+## 🖼️ Previsualización del Componente
 
 ![Previsualización del botón de WhatsApp flotante](whatsapp-button-preview.png)
 
 ---
 
-### 🏗️ Instalación y Uso
+## 🏗️ Instalación y Uso
 
 #### 1. Dependencia
 
@@ -39,7 +39,7 @@ El componente se declara y se configura como un block, generalmente en un *templ
   }
 }
 ```
-⚙️ Propiedades (Props)
+## ⚙️ Propiedades (Props)
 
 Estas propiedades permiten configurar el comportamiento y la apariencia del botón. 
 La configuración utiliza el esquema (schema) definido en el componente.
