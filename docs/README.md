@@ -1,24 +1,31 @@
 # 🟢 Componente Whatsapp Button
 
----
+* [🚀 Visión General](#-visión-general)
+* [🖼️ Previsualización del Componente](#-previsualización-del-componente)
+* [🏗️ Instalación y Ejemplo de Uso](#-instalacion-y-ejemplo-de-uso)
+    * [1. Dependencia](#1-dependencia)
+    * [2. Declaración en Blocks](#2-declaración-en-blocks)
+* [⚙️ Propiedades (Props)](#-propiedades-props)
+    * [Propiedades que se le envian al componente desde la tienda](#estructura-de-cada-objeto-bullet)
+* [🎨 Personalización](#-personalización)
 
-## 🚀 Visión General
 
-Este componente de VTEX IO muestra un **botón flotante de WhatsApp** en la esquina inferior izquierda de la pantalla, permitiendo a los clientes iniciar una conversación con un mensaje predefinido.
+## 🚀 `Visión General`
 
-## 🖼️ Previsualización del Componente
+Este componente fue creado con el template de `react-app-template` de VTEX. Este componente muestra un **botón flotante de WhatsApp** en la esquina inferior izquierda de la pantalla, permitiendo a los clientes iniciar una conversación con un mensaje predefinido.
+
+## 🖼️ `Previsualización del Componente`
 
 ![Previsualización del botón de WhatsApp flotante](whatsapp-button-preview.png)
 
----
 
-## 🏗️ Instalación y Uso
+## 🏗️ `Instalación y Ejemplo de Uso`
 
-#### 1. Dependencia
+### 1. Dependencia
 
 Asegúrate de declarar la aplicación del componente en las dependencias de el `manifest.json` de tu tienda.
 
-#### 2. Declaración en Blocks
+### 2. Declaración en Blocks
 
 El componente se declara y se configura como un block, generalmente en un *template* o bloque principal (Ej. `store/blocks.jsonc`).
 
@@ -29,6 +36,7 @@ El componente se declara y se configura como un block, generalmente en un *templ
     // Otros bloques...
   ]
 },
+// Ejemplo de props que se le pueden pasar al componente
 "whatsapp-button": {
   "props": {
     "logo": "assets/img/whatsapp-logo.png",
@@ -39,7 +47,7 @@ El componente se declara y se configura como un block, generalmente en un *templ
   }
 }
 ```
-## ⚙️ Propiedades (Props)
+## ⚙️ `Propiedades (Props)`
 
 Estas propiedades permiten configurar el comportamiento y la apariencia del botón. 
 La configuración utiliza el esquema (schema) definido en el componente.
@@ -52,10 +60,28 @@ La configuración utiliza el esquema (schema) definido en el componente.
 | **`width`** | String / Number | No | `40` | Ancho del logo en píxeles. |
 | **`height`** | String / Number | No | `40` | Alto del logo en píxeles. |
 
-## 🎨 Estilo y Posición
+## 🎨 `Estilo y Posición`
+El diseño y la posición del componente se definen utilizando las clases de **Tachyons**:
 
-Posición Fija: El componente está codificado para ser fijo en la parte inferior izquierda (fixed bottom-1 left-1).
+**`Posición Fija:`** El contenedor principal utiliza las clases **(fixed bottom-1 left-1 pa4 br-100)** para asegurar que el botón permanezca visible en la esquina inferior izquierda.
 
-Color de Fondo: El fondo del contenedor es verde (#25d366).
+**`Color de Fondo:`** El color verde característico de WhatsApp (`#25d366`) se aplica directamente en línea al contenedor.
 
-URL Generada: La URL de destino utiliza la API de WhatsApp, concatenando el número y el mensaje:https://api.whatsapp.com/send?phone=${phone}&#038;text=${message}.
+**`URL Generada:`** La URL de destino utiliza la API de WhatsApp, concatenando el número y el mensaje: `https://api.whatsapp.com/send?phone=${phone}&#038;text=${message}.`
+
+
+## 🪪 `Contribución y Licencia`
+
+### 🤝 Contribución 
+
+Si deseas contribuir con mejoras, reportar *bugs* o sugerir nuevas características:
+
+1.  Haz un *fork* del repositorio.
+2.  Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3.  Realiza tus cambios y haz *commit* (`git commit -m 'feat: Añadir nueva funcionalidad'`).
+4.  Sube la rama (`git push origin feature/nueva-funcionalidad`).
+5.  Abre un *Pull Request*.
+
+###  📜 Licencia
+
+Este proyecto está bajo la **Licencia MIT**.
