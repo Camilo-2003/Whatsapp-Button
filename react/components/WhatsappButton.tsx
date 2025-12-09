@@ -1,14 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
-type Props = {
-  logo: string 
-  phone: string
-  message: string
-  alt: string
-  width: number
-  height: number
-}
+import { Props } from "../typings/types";
 
 const WhatsappButton = ({ logo, phone, message, alt, width, height }: Props) => {
   // const formatMessage = message.replace(/ /g, '%20');
