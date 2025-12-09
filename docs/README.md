@@ -16,7 +16,7 @@ Este componente de VTEX IO muestra un **botón flotante de WhatsApp** en la esqu
 
 #### 1. Dependencia
 
-Asegúrate de declarar la aplicación del componente en las dependencias de tu `manifest.json` de la tienda.
+Asegúrate de declarar la aplicación del componente en las dependencias de el `manifest.json` de tu tienda.
 
 #### 2. Declaración en Blocks
 
@@ -56,6 +56,6 @@ La configuración utiliza el esquema (schema) definido en el componente.
 
 Posición Fija: El componente está codificado para ser fijo en la parte inferior izquierda (fixed bottom-1 left-1).
 
-Color de Fondo: El fondo del contenedor es verde WhatsApp (#25d366).
+Color de Fondo: El fondo del contenedor es verde (#25d366).
 
 URL Generada: La URL de destino utiliza la API de WhatsApp, concatenando el número y el mensaje:https://api.whatsapp.com/send?phone=${phone}&#038;text=${message}.
