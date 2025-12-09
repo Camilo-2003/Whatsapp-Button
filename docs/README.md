@@ -50,5 +50,8 @@ La configuración utiliza el esquema (schema) definido en el componente.
 
 🎨 Estilo y Posición
 
-Posición Fija: El componente está codificado para ser fijo en la parte inferior izquierda (fixed bottom-1 left-1).Color de Fondo: El fondo del contenedor es verde WhatsApp (#25d366).
+Posición Fija: El componente está codificado para ser fijo en la parte inferior izquierda (fixed bottom-1 left-1).
+
+Color de Fondo: El fondo del contenedor es verde WhatsApp (#25d366).
+
 URL Generada: La URL de destino utiliza la API de WhatsApp, concatenando el número y el mensaje:https://api.whatsapp.com/send?phone=${phone}&#038;text=${message}.
