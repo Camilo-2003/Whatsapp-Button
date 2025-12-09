@@ -34,8 +34,9 @@ El componente se declara y se configura como un block, generalmente en un *templ
     "height": 40
   }
 }
-
+```
 ⚙️ Propiedades (Props)
+
 Estas propiedades permiten configurar el comportamiento y la apariencia del botón. 
 La configuración utiliza el esquema (schema) definido en el componente.
 | Propiedad | Tipo | Obligatorio | Valor por Defecto | Descripción |
