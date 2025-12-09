@@ -8,7 +8,7 @@ Este componente de VTEX IO muestra un **botón flotante de WhatsApp** en la esqu
 
 ### 🖼️ Previsualización del Componente
 
-![Previsualización del botón de WhatsApp flotante](docs/whatsapp-button-preview.png)
+![Previsualización del botón de WhatsApp flotante](whatsapp-button-preview.png)
 
 ---
 
