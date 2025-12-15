@@ -26,6 +26,12 @@ Este componente fue creado con el template de `react-app-template` de VTEX. Este
 
 Asegúrate de declarar la aplicación del componente en las dependencias de el `manifest.json` de tu tienda.
 
+```json
+"dependencies": {
+  "{vendor}.whatsapp-button": "0.x"
+}
+```
+
 ### 2. Declaración en Blocks
 
 El componente se declara y se configura como un block, generalmente en un *template* o bloque principal (Ej. `store/blocks.jsonc`).
