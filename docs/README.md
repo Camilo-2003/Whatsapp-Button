@@ -7,7 +7,8 @@
     * [2. Declaración en Blocks](#2-declaración-en-blocks)
 * [⚙️ Propiedades (Props)](#-propiedades-props)
     * [Propiedades que se le envian al componente desde la tienda](#estructura-de-cada-objeto-bullet)
-* [🎨 Personalización](#-personalización)
+* [🎨 Personalización (Estilo y Posición)](#-personalización)
+* [🪪 Contribución y Licencia](#-contribución-y-licencia)
 
 
 ## 🚀 `Visión General`
